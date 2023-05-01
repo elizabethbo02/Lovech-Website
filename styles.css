@@ -1,0 +1,65 @@
+body {
+    background-color: #FDF4F5;
+}
+
+h3{
+    color: #5f2660;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    font-style: italic;
+}
+
+p{
+    color: #471f49;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.lovech{
+    display: block;
+    color: #5f2660;
+}
+
+#logo-lovech{
+    margin-right: 20px;
+}
+
+.attractions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.item-attr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.item-attr:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img-attr{
+    width: 200px;
+    border: 5px solid #5f2660;
+    border-radius: 50%;
+}
+
