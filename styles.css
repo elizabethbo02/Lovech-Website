@@ -1,13 +1,43 @@
 body {
-    background-color: #FAF0E4;
+    background-color: #FAF0E4; /*beige*/
+   /*background-color: #5f2660; /*purple*/*/ 
 }
 
-h3{
+nav {
+    background-color: #5f2660; 
+    color: #ffffff;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    height: 10vh;
+    padding-left: 0px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 4vh;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    padding: 17px 76px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h3 {
     color: #5f2660;
     font-weight: bold;
     text-align: center;
-    font-size: 30px;
-    padding: 50px 0px 0px 0px;
+    font-size: 2.3rem;
+    padding: 66px 0px;
+    margin: 0px;
 }
 
 h2{
@@ -35,16 +65,16 @@ p{
     text-align: center;
     background-color: #ffffff;
     box-shadow: 0 0 70px 100px rgb(255, 255, 255); 
-    border-radius: 100px;
+    border-radius: 140px;
     opacity: 0.9;
     }
 
-.hero-img{
+.hero-img {
+    height: 100vh;
     background-color: #FAF0E4;
     background-image: url("images/lovech.jpg");
     background-size: cover;
     background-position: center;
-    height: 800px;
     position: relative;
 }
 
@@ -60,10 +90,14 @@ p{
 }
 
 .attractions {
+    background-color: #FAF0E4;
+}
+
+.attractions-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-bottom: 50px;
+    padding-bottom: 66px;
 }
 
 .item-attr {
@@ -87,7 +121,6 @@ p{
 }
 
 #month{
-    padding: 30px 30px;
     margin-bottom: 0px;
     color: #ffffff;
     align-self: center;
@@ -109,8 +142,8 @@ p{
     align-items: center;
 }
 
-.visit-img{
-    height: 300px;
+.visit-img {
+    height: 20rem;
     margin-bottom: 0px;
 }
 
@@ -119,6 +152,32 @@ p{
     font-size: 20px;
 }
 
+/* History page begin */
 
+.history-section {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 5rem;
+    background-color: #FAF0E4;
+}
 
+.history-title {
+    font-size: 4.6vh;
+    color: #783900;
+    text-align: left;
+    padding: 20px 0px;
+}
 
+.wrap-right {
+    float: right;
+    height: 50vh;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph-history {
+    margin: 0px;
+    height: 40vh;
+    line-height: 3.8vh;
+    font-size: 2.8vh;
+}
