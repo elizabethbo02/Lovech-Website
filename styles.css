@@ -3,32 +3,33 @@ body {
    /*background-color: #5f2660; /*purple*/*/ 
 }
 
+/* NAVIGATION */
 nav {
-    background-color: #5f2660; 
+    background-color: #5f2660;
     color: #ffffff;
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
-    margin: 0px;
-    height: 10vh;
+    margin: 0 5vw;
+    height: 60px;
     padding-left: 0px;
 }
 
 nav ul li a {
     color: #ffffff;
-    font-size: 4vh;
+    font-size: 30px;
     text-decoration: none;
     letter-spacing: 0.7px;
-    padding: 17px 76px;
+    padding: 15px 60px;
     transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.5);
 }
 
 h3 {
@@ -152,17 +153,20 @@ p{
     font-size: 20px;
 }
 
-/* History page begin */
-
+/* HISTORY PAGE begin */
 .history-section {
     display: flex;
     flex-direction: column;
-    margin: 5rem 5rem;
+    margin: 50px;
     background-color: #FAF0E4;
 }
 
+.period-container{
+    margin-bottom:20px;
+}
+
 .history-title {
-    font-size: 4.6vh;
+    font-size: 30px;
     color: #783900;
     text-align: left;
     padding: 20px 0px;
@@ -170,14 +174,21 @@ p{
 
 .wrap-right {
     float: right;
-    height: 50vh;
+    height: 20rem;
     margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.wrap-left {
+    float: left;
+    height: 20rem;
+    margin-right: 30px;
     margin-bottom: 10px;
 }
 
 .paragraph-history {
     margin: 0px;
-    height: 40vh;
-    line-height: 3.8vh;
-    font-size: 2.8vh;
+
+    line-height: 1.8rem;
+    font-size: 18px;
 }
