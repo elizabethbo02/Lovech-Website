@@ -157,7 +157,7 @@ p{
 .history-section {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 70px;
     background-color: #FAF0E4;
 }
 
@@ -192,3 +192,9 @@ p{
     line-height: 1.8rem;
     font-size: 18px;
 }
+
+#levski-img {
+    height: 380px;
+}
+
+
