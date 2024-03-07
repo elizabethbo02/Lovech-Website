@@ -207,4 +207,46 @@ p{
     height: 380px;
 }
 
+/* GALLERY BEGIN */
+#gallery-title{
+    color: #5f2660;
+    font-size: 20px;
+    text-align: center;
+    padding: 35px 0px;
+    margin: 0px;
+}
+
+.gallery {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.pics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-gallery {
+    width: 450px;
+    height: 300px;
+    margin: 18px;
+    border: 10px solid #5f2660;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    transition-duration: 1s;
+}
+
+    .pic-gallery:hover {
+        border: 10px solid #5f2660;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-filter: none;
+        filter: none;
+    }
+
 
