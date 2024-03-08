@@ -177,6 +177,10 @@ p{
     padding: 20px 0px;
 }
 
+#russian-turkish-title{
+    margin-top: 40px;
+}
+
 .wrap-right {
     float: right;
     height: 20rem;
@@ -193,9 +197,8 @@ p{
 
 .paragraph-history {
     margin: 0px;
-
-    line-height: 1.8rem;
-    font-size: 18px;
+    line-height: 2rem;
+    font-size: 22px;
 }
 
 .min-revival {
@@ -215,7 +218,6 @@ p{
     color: #5f2660;
     font-size: 20px;
     text-align: center;
-    padding-top: 30px;
     padding-bottom: 60px;
     margin: 0px;
 }
@@ -254,3 +256,60 @@ p{
     }
 
 
+/* VISIT BEGIN */
+.best-times-section {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 70px;
+    background-color: #FAF0E4;
+}
+
+h1 {
+    color: #5f2660;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+}
+
+.date-container {
+    margin-bottom: 40px;
+}
+
+.visit-title {
+    font-size: 35px;
+    color: #783900;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.paragraph-visit {
+    margin: 0px;
+    line-height: 1.8rem;
+    font-size: 22px;
+}
+
+.gallery-visit {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 55px;
+}
+
+.pic-visit {
+    width: 450px;
+    height: 300px;
+    margin: 15px;
+    border: 10px solid #5f2660;
+    transition-duration: 1s;
+}
+
+    .pic-visit:hover {
+        border: 10px solid #5f2660;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-filter: none;
+        filter: none;
+    }
