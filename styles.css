@@ -2,7 +2,7 @@ body {
     /*background-color: #FAF0E4; beige*/
     /*background-color: #ffeede; /*beige*/
     /*background-color: #5f2660; /*purple*/
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background: linear-gradient(-90deg, rgb(129, 104, 157), rgb(71, 79, 122), rgb(31, 37, 68));
     background-size: 400% 400%;
     animation: gradient 6s ease infinite;
@@ -56,6 +56,7 @@ nav {
 nav ul li a {
     color: #ffffff;
     font-size: 30px;
+    font-weight: 500;
     text-decoration: none;
     letter-spacing: 0.7px;
     padding: 15px 60px;
@@ -67,6 +68,8 @@ nav ul li a {
 }
 
 h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 800;
     color: #5f2660;
     font-weight: bold;
     text-align: center;
@@ -76,6 +79,8 @@ h3 {
 }
 
 h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
     font-style: italic;
     margin: 10px;
 }
@@ -164,12 +169,12 @@ p{
     color: #5f2660;
     margin-bottom: 0px;
     align-self: center;
-    padding-top: 0px;
+    padding: 0px;
 }
 
 .visit {
     background-color: #fdf7fa;
-    padding: 20px 20px;
+    padding: 65px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -192,6 +197,12 @@ p{
     font-size: 20px;
 }
 
+#explore {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
 /* HISTORY PAGE begin */
 .history-section {
     display: flex;
@@ -205,14 +216,10 @@ p{
 }
 
 .history-title {
-    font-size: 30px;
+    font-size: 40px;
     color: #783900;
     text-align: left;
     padding: 20px 0px;
-}
-
-#russian-turkish-title{
-    margin-top: 40px;
 }
 
 .wrap-right {
@@ -245,6 +252,37 @@ p{
 
 #levski-img {
     height: 380px;
+}
+
+@media (min-width: 1600px) {
+    .min-revival {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 1034px) {
+    .history-title {
+        padding-top: 40px;
+        font-size: 35px;
+    }
+
+    .mobile-font {
+        font-size: 44px;
+    }
+
+    .mobile-img{
+        height: 15rem;
+    }
+
+    #levski-img {
+        height: 20rem;
+    }
+
+    .paragraph-history {
+        margin: 0px;
+        line-height: 1.7rem;
+        font-size: 18px;
+    }
 }
 
 /* GALLERY BEGIN */
@@ -302,10 +340,13 @@ p{
 }
 
 h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
     color: #5f2660;
     font-size: 50px;
     text-align: center;
-    padding: 40px;
+    padding: 25px 40px;
     margin: 0px;
 }
 
