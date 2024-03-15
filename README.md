@@ -15,7 +15,7 @@ The website is an informative one designed to showcase the beauty and attraction
 
 The website features a navigation menu that allows users to easily navigate between different sections of the website. The navigation menu includes links to the homepage, history page, visit page, and gallery page.
 
-![Navigation Image](./images/gallery/readme/Navigation.jpg)
+![Navigation Image](./images/gallery/readme/Navigation.jpg?raw=true)
 
 The navigation also contains a hover effect that changes the background color of the menu items when the user hovers over them.
 
@@ -25,20 +25,20 @@ The navigation also contains a hover effect that changes the background color of
 
 The homepage features a hero section with a welcoming message and the city's logo. 
 
-![Hero Image](./images/gallery/readme/Hero.jpg)
+![Hero Image](./images/gallery/readme/Hero.jpg?raw=true)
 
 
 ## Must-See Attractions
 
 Discover the must-see attractions in Lovech, including Varosha, the Covered Bridge, and Hisarya Fortress. Each attraction is accompanied by its name and a link for more information. When the user hovers over an attraction, a brief animation is being played out.
 
-![Attractions Image](./images/gallery/readme/Attractions.jpg)
+![Attractions Image](./images/gallery/readme/Attractions.jpg?raw=true)
 
 ## Best Months for a Visit
 
 Find out the best months to visit Lovech and the reasons behind them. 
 
-![Best Months Image](./images/gallery/readme/BestMonths.jpg)
+![Best Months Image](./images/gallery/readme/BestMonths.jpg?raw=true)
 
 ## Explore More
 
@@ -56,18 +56,5 @@ The visit page offers practical information for visitors, including tips for pla
 
 The gallery page showcases a collection of images depicting the beauty of Lovech and its attractions.
 
-## Contributing
 
-Contributions to the Lovech website are welcome! If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Make your changes locally.
-3. Test your changes to ensure they work as expected.
-4. Submit a pull request with your changes.
-
-## Feedback
-
-If you have any feedback, suggestions, or encounter any issues while using the website, please don't hesitate to [contact us](mailto:info@lovechwebsite.com). Your feedback is valuable and helps us improve the website for all users.
-
-Enjoy exploring Lovech!
 
