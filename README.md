@@ -27,19 +27,19 @@ The homepage features a hero section with a welcoming message and the city's log
 
 ![Hero Image](https://github.com/elizabethbo02/Lovech-Website/blob/main/images/readme/Hero.jpg)
 
-## Must-See Attractions
+#### Must-See Attractions
 
 Discover the must-see attractions in Lovech, including Varosha, the Covered Bridge, and Hisarya Fortress. Each attraction is accompanied by its name and a link for more information. When the user hovers over an attraction, a brief animation is being played out.
 
 ![Attractions Image](https://github.com/elizabethbo02/Lovech-Website/blob/main/images/readme/MustSee.jpg)
 
-## Best Months for a Visit
+#### Best Months for a Visit
 
 Find out the best months to visit Lovech and the reasons behind them. 
 
 ![Best Months Image](https://github.com/elizabethbo02/Lovech-Website/blob/main/images/readme/BestMonths.jpg?raw=true)
 
-## Explore More
+#### Explore More
 
 Ready to dive deeper into Lovech? Visit the "Visit" section to explore even more attractions, events, and activities available throughout the year.
 
@@ -47,7 +47,7 @@ Ready to dive deeper into Lovech? Visit the "Visit" section to explore even more
 
 The history page of our website offers a comprehensive overview of Lovech's historical heritage, spanning from ancient times to the present day. Dive into the city's past and explore significant events, landmarks, and cultural milestones that have shaped Lovech's identity over the centuries.
 
-<img src=".\images\readme\HistoryPage.jpg" alt="History Page screenshot" width="300" height="200">
+![History Page screenshot](https://github.com/elizabethbo02/Lovech-Website/blob/main/images/readme/HistoryPage.jpg)
 
 
 ### Visit Page
@@ -57,7 +57,7 @@ It provides details about the best times to visit, including notable events and 
 throughout the year. Additionally, visitors can learn about local attractions, landmarks, and activities 
 to help them make the most of their time in the town.
 
-![Visit Page screenshot](.\images\readme\VisitPage.jpg)
+![Visit Page screenshot](https://github.com/elizabethbo02/Lovech-Website/blob/main/images/readme/VisitPage.jpg)
 
 ### Gallery Page
 
@@ -66,6 +66,6 @@ Visitors can browse through a collection of photographs, from the iconic fortres
 scenic parks, each image offers a glimpse into the rich tapestry of Lovech's history and character. 
 When the user hovers over an image, a brief animation is being played out.
 
-![Gallery Page screenshot](.\images\readme\GalleryPage.jpg)
+![Gallery Page screenshot](https://github.com/elizabethbo02/Lovech-Website/blob/main/images/readme/GalleryPage.jpg)
 
 
