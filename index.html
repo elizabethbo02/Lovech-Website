@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="styles.css">
@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-   </head>
+    <link rel="preload" fetchpriority="high" as="image" href="images/lovech.jpg" type="image/webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
     <body>
         <!-- NAVIGATION -->
         <nav>
@@ -25,7 +27,7 @@
         <div class="hero-img">
             
             <div class="hero">
-              <img id="logo-lovech" src="images/logo-lovech.svg">
+              <img id="logo-lovech" alt="The Crest of Lovech" src="images/logo-lovech.svg">
             <div class="lovech">
              <h1>Welcome to Lovech</h1>
              <h2>"The City of Lilacs"</h2>
@@ -41,17 +43,17 @@
                 <div class="attractions-container">
 
                     <div class="item-attr">
-                        <a href="https://www.lovech.bg/bg/zabelezhitelnosti/arhitekturno-istoricheski-rezervat-varosha/" target="_blank"><img class="img-attr" src="images/Varosha.jpg"></a>
+                        <a href="https://www.lovech.bg/bg/zabelezhitelnosti/arhitekturno-istoricheski-rezervat-varosha/" aria-label="Read more about Varosha district in Lovech" target="_blank"><img class="img-attr" alt="Photo of Varosha district" src="images/Varosha.jpg"></a>
                         <p>Varosha</p>
                     </div>
 
                     <div class="item-attr">
-                        <a href="https://www.lovech.bg/bg/zabelezhitelnosti/pokritiyat-most" target="_blank"><img class="img-attr" src="images/Covered Bridge.jpg"></a>
+                        <a href="https://www.lovech.bg/bg/zabelezhitelnosti/pokritiyat-most" aria-label="Read more about the Covered Bridge in Lovech" target="_blank"><img class="img-attr" alt="Photo of the Covered Bridge in Lovech" src="images/Covered Bridge.jpg"></a>
                         <p>The Covered Bridge</p>
                     </div>
 
                     <div class="item-attr">
-                        <a href="https://www.lovech.bg/bg/zabelezhitelnosti/loveshka-srednovekovna-krepost" target="_blank"><img class="img-attr" src="images/Hisarya.jpg"></a>
+                        <a href="https://www.lovech.bg/bg/zabelezhitelnosti/loveshka-srednovekovna-krepost" aria-label="Read more about the Hisarya Fortress in Lovech" target="_blank"><img class="img-attr" alt="Photo of Hisarya Fortress" src="images/Hisarya.jpg"></a>
                         <p>Hisarya Fortress</p>
                     </div>
                 </div>
@@ -65,17 +67,17 @@
                 <div class="visit">
 
                     <div class="visit-month">
-                        <img class="visit-img" src="images/shestvie.jpg"></a>
+                        <img class="visit-img" alt="Torchlight Procession" src="images/shestvie.jpg"></a>
                         <p class="visit-text">February - Commemorative Torchlight Procession</p>
                     </div>
 
                     <div class="visit-month">
-                        <img class="visit-img" src="images/praznik.jpg"></a>
+                        <img class="visit-img" alt="The Holiday of the Town" src="images/praznik.jpg"></a>
                         <p class="visit-text">May 11th - Lovech holiday</p>
                     </div>
 
                     <div class="visit-month">
-                        <img class="visit-img" src="images/winter.jpg"></a>
+                        <img class="visit-img" alt="Winter Picture of Lovech" src="images/winter.jpg"></a>
                         <p class="visit-text">December - Winter time</p>
                     </div>
                 </div>
