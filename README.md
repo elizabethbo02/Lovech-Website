@@ -2,6 +2,8 @@
 
 The website is an informative one designed to showcase the beauty and attractions of the city of Lovech, Bulgaria. It provides visitors with information about the city's history, must-see attractions, best times to visit, and more.
 
+The UI and the code are of my first whole websites build from scratch. 
+
 # Folder Structure
 
 - **images**: Contains all image files used on the website.
